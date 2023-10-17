@@ -21,7 +21,7 @@ export const getProductos = () =>{
     export const getItem = () =>{
         return new Promise ((resolve) =>{
             setTimeout(() => {
-                resolve(list[2])
+                resolve(arrayProductos[1])
             }, 2000);
         })
     }
